@@ -6,9 +6,9 @@ An agentic chatbot that leverages LangGraph ReAct agents, integrates real-time s
 
 ## 🚀 Demo
 
-🔗 **Live App:** [Try the chatbot on Hugging Face](https://huggingface.co/spaces/YOUR_USERNAME/YOUR_PROJECT_NAME)
+🔗 **Live App:** [Try the chatbot on Hugging Face](https://huggingface.co/spaces/ShaistaDev07/Personlized_Agent_ChatBot)
 
-🔗 **GitHub Repo:** [View Source Code](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME)
+🔗 **GitHub Repo:** [View Source Code](https://github.com/shaistaDev7/Personalized-Agent-ChatBot)
 
 ---
 
@@ -29,6 +29,7 @@ An agentic chatbot that leverages LangGraph ReAct agents, integrates real-time s
 - Fine-tuning LLMs for specific tasks or roles is expensive and resource-heavy.
 - General-purpose bots lack personalization and tool-use flexibility.
 - Real-time search capabilities are often missing in standard chatbot setups.
+- People waste lot of time to search on web for information finding
 
 ---
 
@@ -36,7 +37,7 @@ An agentic chatbot that leverages LangGraph ReAct agents, integrates real-time s
 
 - Build a reusable **agentic chatbot** that adapts to custom roles without retraining.
 - Integrate **LangGraph ReAct agents** with LangChain tools for flexible orchestration.
-- Combine **Groq** and **OpenAI** models for performance and versatility.
+- Use **Groq** and **OpenAI** models for performance and versatility.
 - Use **Tavily Search API** to fetch current information dynamically.
 - Deploy everything on **Hugging Face Spaces** with an intuitive **Streamlit UI**.
 
@@ -55,7 +56,3 @@ An agentic chatbot that leverages LangGraph ReAct agents, integrates real-time s
 
 ---
 
-## 🧱 Architecture Overview
-
-```plaintext
-User ↔ Streamlit UI ↔ FastAPI ↔ LangGraph Agent ↔ LLMs (Groq/OpenAI) + Tools (Tavily)
